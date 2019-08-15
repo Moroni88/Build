@@ -10,7 +10,8 @@ public class ExercisUnitTests {
 
 	@Test
 	public void testSimpleExerciseSet() {
-		
+		Exercise e1 = new Exercise();
+		e1.setName("Bench Press");
 		
 		Set set1 = new Set();
 		set1.setCountReps(10);
